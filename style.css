@@ -193,4 +193,69 @@ z-index:100;
   }
 }
 
+/* ===== BASIC RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #000428, #004e92);
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background: rgba(0, 0, 0, 0.3);
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+.home-img img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 20px orange;
+  margin-bottom: 20px;
+}
+
+/* ===== RESPONSIVE NAV (Mobile) ===== */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .navbar ul.show {
+    display: flex;
+  }
+
+.menu-toggle {
+  display:block;
+}
+
+  .navbar ul li {
+    padding: 10px 0;
+  }
+
   
