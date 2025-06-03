@@ -51,17 +51,20 @@ z-index:100;
 .home{
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     height: 100vh;
-    padding: 60px 9% 0;
+    padding: 120px 9% 0;
     color: #fff;
 }
 .home-info h1{
     font-size: 30px;
+     margin-top: 90px;
+
 
 }
 .home-info h2{
     font-size:22px;
-    margin-top: -10px;
+    margin-top: 10px;
 }
 
 .home-info p {
@@ -175,6 +178,7 @@ z-index:100;
   box-shadow: 0 0 20px #8348b9;
   animation: glow 2s ease-in-out infinite alternate;
   margin-bottom: 25px;
+  margin-top: 60px;  
 }
 
 .home-img img {
